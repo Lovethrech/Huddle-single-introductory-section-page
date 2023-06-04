@@ -9,7 +9,7 @@
     list-style: none;
 }
 .container{
-    background:url('huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg') 
+    background:url('bg-desktop.svg') 
     hsl(257, 40%, 49%) center center;
     padding:70px 200px 50px;
     width:100%;
@@ -79,7 +79,7 @@ main .text{
         display:block;
     }
     .container{
-        background:url('huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg') 
+        background:url('bg-mobile.svg') 
         hsl(257, 40%, 49%) top center no-repeat;
         padding:30px 50px 50px;
         width:100%;
@@ -169,7 +169,7 @@ main .text{
         display:block;
     }
     .container{
-        background:url('huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg') 
+        background:url('bg-mobile.svg') 
         hsl(257, 40%, 49%) top center no-repeat;
         padding:30px 40px;
         width:100%;
