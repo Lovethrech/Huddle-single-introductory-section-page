@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    background:url('huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg') 
+    hsl(257, 40%, 49%) center center;
+    padding:70px 200px 50px;
+    width:100%;
+}
+header img{
+    width:190px;
+    margin-bottom: 20px;
+}
+
+main{
+    display:flex;
+    gap:50px;
+}
+.image img{
+    max-width:500px;
+}
+main .text{
+    margin:auto 0;
+    color:hsl(0,100%,100%);
+}
+.text h1{
+    font-size:50px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.text p{
+    font-family: 'Open Sans', sans-serif;
+}
+.text a button{
+    color:hsl(257, 40%, 49%);
+    margin:20px 0;
+    padding:10px 30px;
+    border-radius:25px;
+    border:2px solid hsl(0,100%,100%);
+}
+.text a button:hover{
+    cursor: pointer;
+    background-color:hsl(300, 69%, 71%);
+    color:hsl(0,100%,100%);
+    border:2px solid hsl(300, 69%, 71%);
+    transition: 0.9s;
+}
+.social-media{
+    text-align: right;
+    font-size:25px;
+}
+.social-media a{
+    color:hsl(0,100%,100%);
+}
+.social-media a i:hover{
+    color:hsl(300, 69%, 71%);
+    transform: scale(1.4);
+}
+
+@media screen and (max-width:759px) and (min-width:351px){
+    header img, .image img,.text, .text a button, footer{
+        margin-bottom:50px;
+    }
+    main, .social-media{
+        text-align: center;
+    }
+    header img{
+        width:100px;
+        margin-bottom: 20px;
+    }
+    main{
+        display:block;
+    }
+    .container{
+        background:url('huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg') 
+        hsl(257, 40%, 49%) top center no-repeat;
+        padding:30px 50px 50px;
+        width:100%;
+    }
+    .image img{
+        max-width:100%;
+    }
+    .text a button{
+        padding:10px 90px;
+    }
+    .text h1{
+        font-size:30px;
+        font-weight: 600;
+    }
+}
+
+
+
+@media screen and (max-width:1250px) and (min-width:930px){
+    .container{
+        padding:50px 60px;
+    }
+    .image img{
+        max-width:10%;
+    }
+
+    main{
+        display:flex;
+        gap:20px;
+    }
+    .image img{
+        max-width:400px;
+    }
+    .text h1{
+        font-size:40px;
+        font-weight: 600;
+    }
+    .text a button{
+        color:hsl(257, 40%, 49%);
+        margin:20px 0;
+        padding:10px 30px;
+        border-radius:25px;
+        border:2px solid hsl(0,100%,100%);
+    }
+}
+
+@media screen and (max-width:930px) and (min-width:760px){
+    .container{
+        padding:30px 50px;
+    }
+    .image img{
+        max-width:90%;
+    }
+
+    main{
+        display:flex;
+        gap:20px;
+    }
+    .image img{
+        max-width:400px;
+    }
+    .text h1{
+        font-size:35px;
+        font-weight: 600;
+    }
+    .text a button{
+        color:hsl(257, 40%, 49%);
+        margin:20px 0;
+        padding:10px 30px;
+        border-radius:25px;
+        border:2px solid hsl(0,100%,100%);
+    }
+}
+
+@media screen and (max-width:350px){
+    header img, .image img,.text, .text a button, footer{
+        margin-bottom:30px;
+    }
+    main, .social-media{
+        text-align: center;
+    }
+    header img{
+        width:100px;
+        margin-bottom: 20px;
+    }
+    main{
+        display:block;
+    }
+    .container{
+        background:url('huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg') 
+        hsl(257, 40%, 49%) top center no-repeat;
+        padding:30px 40px;
+        width:100%;
+    }
+    .image img{
+        max-width:100%;
+    }
+    .text a button{
+        padding:5px 50px;
+        font-size:12px;
+    }
+    .text h1{
+        font-size:24px;
+        font-weight: 600;
+    }
+    .text p{
+        font-size:12px;
+    }
+    .social-media{
+        text-align: center;
+        font-size:12px;
+    }
+    .social-media a{
+        color:hsl(0,100%,100%);
+    }
+}
